@@ -9,7 +9,7 @@
 <?php endif; ?>
 <?php wp_head(); ?>
 </head>
-<body id="mh-mobile" <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<body id="mh-mobile" <?php body_class(); ?> itemscope="itemscope" itemtype="https://schema.org/WebPage">
 <?php mh_before_header();
 get_template_part('content', 'header');
 mh_after_header(); ?>

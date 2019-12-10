@@ -1,4 +1,4 @@
-<aside class="mh-widget-col-1 mh-sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar"><?php
+<aside class="mh-widget-col-1 mh-sidebar" itemscope="itemscope" itemtype="https://schema.org/WPSideBar"><?php
 	if (is_active_sidebar('sidebar')) {
 		dynamic_sidebar('sidebar');
 	} else { ?>

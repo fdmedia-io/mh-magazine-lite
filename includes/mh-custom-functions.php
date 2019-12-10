@@ -40,7 +40,7 @@ if (!function_exists('mh_magazine_lite_custom_header')) {
 			}
 			if (function_exists('has_custom_logo') && has_custom_logo() || display_header_text()) {
 				echo '<div class="mh-site-identity">' . "\n";
-					echo '<div class="mh-site-logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">' . "\n";
+					echo '<div class="mh-site-logo" role="banner" itemscope="itemscope" itemtype="https://schema.org/Brand">' . "\n";
 						if (function_exists('the_custom_logo')) {
 							the_custom_logo();
 						}
@@ -175,7 +175,7 @@ if (!function_exists('mh_magazine_lite_postnav')) {
 			$prev_post = get_previous_post();
 			$next_post = get_next_post();
 			if (!empty($prev_post) || !empty($next_post) || $attachment) {
-				echo '<nav class="mh-post-nav mh-row mh-clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">' . "\n";
+				echo '<nav class="mh-post-nav mh-row mh-clearfix" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">' . "\n";
 					if (!empty($prev_post) || $attachment) {
 						echo '<div class="mh-col-1-2 mh-post-nav-item mh-post-nav-prev">' . "\n";
 							if ($attachment) {
@@ -361,7 +361,7 @@ if (!function_exists('mh_magazine_lite_footer_widgets')) {
 			$footer_class = 'mh-col-1-1 mh-home-wide ';
 		}
 		if ($footer_1 || $footer_2 || $footer_3 || $footer_4) {
-			echo '<footer class="mh-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">' . "\n";
+			echo '<footer class="mh-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter">' . "\n";
 				echo '<div class="mh-container mh-container-inner mh-footer-widgets mh-row mh-clearfix">' . "\n";
 					if ($footer_1) {
 						echo '<div class="' . esc_attr($footer_class) . ' mh-footer-area mh-footer-1">' . "\n";
