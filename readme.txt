@@ -1,11 +1,11 @@
 === MH Magazine lite ===
 
-Contributors: mh-themes
+Contributors: mhthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, footer-widgets, translation-ready, rtl-language-support, blog, entertainment, news
 
 Requires at least: 4.6.0
-Tested up to: 4.9.8
-Stable tag: 2.8.6
+Tested up to: 5.6.2
+Stable tag: 2.9.0
 License: GPL v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,7 +27,7 @@ Coming soon!
 
 == Copyright ==
 
-MH Magazine lite WordPress Theme, Copyright 2013-2018 MH Themes
+MH Magazine lite WordPress Theme, Copyright 2013-2021 MH Themes
 MH Magazine lite is distributed under the terms of the GNU GPL
 Theme URI: https://mhthemes.com/themes/mh-magazine-lite/
 
@@ -68,6 +68,12 @@ License: Free Public Domain (GPL Compatible)
 Overview: http://demo.mh-themes.com/magazine/credits/
 
 == Changelog ==
+
+= v2.9.0 08-03-2021 =
+* Tweak: Optimized JavaScript usage for latest WordPress jQuery migrate changes
+* Minor improvements and fixes
+* Updated translation files
+* WordPress v5.6.2 compatibility
 
 = v2.8.6 24-10-2018 =
 * Fixed minor alignment issue with paginated posts
