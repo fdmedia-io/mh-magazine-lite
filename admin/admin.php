@@ -84,7 +84,7 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 			<div class="theme-links mh-clearfix">
 				<p>
 					<strong><?php esc_html_e('Important Links:', 'mh-magazine-lite'); ?></strong>
-					<a href="<?php echo esc_url('https://mhthemes.com/themes/mh/magazine-lite/'); ?>" target="_blank">
+					<a href="<?php echo esc_url('https://mhthemes.com/themes/mh-magazine-lite/'); ?>" target="_blank">
 						<?php esc_html_e('Theme Info Page', 'mh-magazine-lite'); ?>
 					</a>
 					<a href="<?php echo esc_url('https://mhthemes.com/support/'); ?>" target="_blank">

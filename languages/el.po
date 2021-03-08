@@ -834,8 +834,8 @@ msgstr ""
 "αυτό το δυναμικό περιοδικό του WordPress στην ιστοσελίδα του MH Themes."
 
 #. Theme URI of the plugin/theme
-msgid "https://mhthemes.com/themes/mh/magazine-lite/"
-msgstr "https://mhthemes.com/themes/mh/magazine-lite/"
+msgid "https://mhthemes.com/themes/mh-magazine-lite/"
+msgstr "https://mhthemes.com/themes/mh-magazine-lite/"
 
 #. Author of the plugin/theme
 msgid "MH Themes"

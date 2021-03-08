@@ -905,8 +905,8 @@ msgid ""
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://mhthemes.com/themes/mh/magazine-lite/"
-msgstr "https://mhthemes.com/themes/mh/magazine-lite/"
+msgid "https://mhthemes.com/themes/mh-magazine-lite/"
+msgstr "https://mhthemes.com/themes/mh-magazine-lite/"
 
 #. Author of the theme
 msgid "MH Themes"

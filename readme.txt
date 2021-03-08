@@ -29,7 +29,7 @@ Coming soon!
 
 MH Magazine lite WordPress Theme, Copyright 2013-2018 MH Themes
 MH Magazine lite is distributed under the terms of the GNU GPL
-Theme URI: https://mhthemes.com/themes/mh/magazine-lite/
+Theme URI: https://mhthemes.com/themes/mh-magazine-lite/
 
 You may remove the link to the MH Themes website in the footer, but we would appreciate any attribution to our work!
 
@@ -190,7 +190,7 @@ Overview: http://demo.mh-themes.com/magazine/credits/
 
 = v2.5.3 04-10-2016 =
 * Minor CSS adjustments
-* Moved theme links to theme options panel 
+* Moved theme links to theme options panel
 * Removed redundant file mh-customizer.js
 * Added dismissible admin notice to refer users to welcome page
 * Updated theme info page

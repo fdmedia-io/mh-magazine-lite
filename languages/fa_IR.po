@@ -899,7 +899,7 @@ msgid ""
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://mhthemes.com/themes/mh/magazine-lite/"
+msgid "https://mhthemes.com/themes/mh-magazine-lite/"
 msgstr ""
 
 #. Author of the theme
