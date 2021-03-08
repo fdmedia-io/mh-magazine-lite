@@ -48,12 +48,12 @@ function mh_magazine_lite_customize_register($wp_customize) {
 	        	</li>
         	</ul>
 			<p class="mh-button mh-upgrade-button">
-				<a href="https://mhthemes.com/themes/mh/magazine/" target="_blank" class="button button-secondary">
+				<a href="https://mhthemes.com/themes/mh-magazine/" target="_blank" class="button button-secondary">
 					<?php esc_html_e('Upgrade to MH Magazine Pro', 'mh-magazine-lite'); ?>
 				</a>
 			</p>
 			<p class="mh-button">
-				<a href="https://mhthemes.com/themes/mh/magazine/#demos" target="_blank" class="button button-secondary">
+				<a href="https://mhthemes.com/themes/mh-magazine/#demos" target="_blank" class="button button-secondary">
 					<?php esc_html_e('Theme Demos', 'mh-magazine-lite'); ?>
 				</a>
 			</p>

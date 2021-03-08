@@ -49,7 +49,7 @@ if (!function_exists('mh_magazine_lite_welcome_notice')) {
 				<a class="button-secondary" href="<?php echo esc_url(admin_url('themes.php?page=magazine')); ?>">
 					<?php printf(esc_html__('Get Started with %s', 'mh-magazine-lite'), $mh_magazine_lite_data['Name']); ?>
 				</a>
-				<a class="button-primary" href="<?php echo esc_url('https://mhthemes.com/themes/mh/magazine/'); ?>" target="_blank">
+				<a class="button-primary" href="<?php echo esc_url('https://mhthemes.com/themes/mh-magazine/'); ?>" target="_blank">
 					<?php esc_html_e('Upgrade to MH Magazine Pro', 'mh-magazine-lite'); ?>
 				</a>
 			</p>
@@ -147,7 +147,7 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 								<?php esc_html_e('If you like the free version of this theme, you will LOVE the full version of MH Magazine which includes unique custom widgets, additional features and more useful options to customize your website.', 'mh-magazine-lite'); ?>
 							</p>
 							<p>
-								<a href="<?php echo esc_url('https://mhthemes.com/themes/mh/magazine/'); ?>" target="_blank" class="button button-primary">
+								<a href="<?php echo esc_url('https://mhthemes.com/themes/mh-magazine/'); ?>" target="_blank" class="button button-primary">
 									<?php esc_html_e('Upgrade to MH Magazine Pro', 'mh-magazine-lite'); ?>
 								</a>
 							</p>
@@ -161,7 +161,7 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 								<?php esc_html_e('The premium version of MH Magazine includes lots of additional features and options to customize your website. We have created several theme demos as examples in order to show what is possible with this flexible magazine theme.', 'mh-magazine-lite'); ?>
 							</p>
 							<p>
-								<a href="<?php echo esc_url('https://mhthemes.com/themes/mh/magazine/#demos'); ?>" target="_blank" class="button button-secondary">
+								<a href="<?php echo esc_url('https://mhthemes.com/themes/mh-magazine/#demos'); ?>" target="_blank" class="button button-secondary">
 									<?php esc_html_e('Theme Demos', 'mh-magazine-lite'); ?>
 								</a>
 								<a href="<?php echo esc_url('https://mhthemes.com/themes/showcase/'); ?>" target="_blank" class="button button-secondary">
@@ -304,7 +304,7 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 							<td></td>
 							<td></td>
 							<td>
-								<a href="<?php echo esc_url('https://mhthemes.com/themes/mh/magazine/'); ?>" target="_blank" class="upgrade-button">
+								<a href="<?php echo esc_url('https://mhthemes.com/themes/mh-magazine/'); ?>" target="_blank" class="upgrade-button">
 									<?php esc_html_e('Upgrade to MH Magazine Pro', 'mh-magazine-lite'); ?>
 								</a>
 							</td>

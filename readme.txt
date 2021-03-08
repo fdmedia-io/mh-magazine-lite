@@ -15,7 +15,7 @@ MH Magazine lite is one of the most popular free responsive magazine, news, news
 
 MH Magazine lite is one of the most popular free responsive magazine, news, newspaper and blog WordPress themes for modern online magazines, dynamic news websites, professional blogs and other editorial websites. This free magazine theme is fast, secure, SEO friendly and perfectly suitable for topics like international news, politics, lifestyle, fashion, business, sports, gadgets, travel or anything else.
 
-If you would like to gain access to more awesome features, flexible custom widgets and useful options to customize your website, you can upgrade to the premium version of MH Magazine and take your website to the next level. You can also learn more about this dynamic magazine WordPress theme on the MH Themes website: https://mhthemes.com/themes/mh/magazine/
+If you would like to gain access to more awesome features, flexible custom widgets and useful options to customize your website, you can upgrade to the premium version of MH Magazine and take your website to the next level. You can also learn more about this dynamic magazine WordPress theme on the MH Themes website: https://mhthemes.com/themes/mh-magazine/
 
 == Installation ==
 
