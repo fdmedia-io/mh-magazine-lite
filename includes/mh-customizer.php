@@ -7,7 +7,7 @@ function mh_magazine_lite_customize_register($wp_customize) {
 	class MH_Magazine_Lite_Upgrade extends WP_Customize_Control {
         public function render_content() {  ?>
         	<p class="mh-upgrade-thumb">
-        		<img src="<?php echo get_template_directory_uri(); ?>/images/mh_magazine.png" />
+        		<img src="<?php echo esc_url( get_template_directory_uri() . '/images/mh_magazine.png' ); ?>" />
         	</p>
         	<p class="customize-control-title mh-upgrade-title">
         		<?php esc_html_e('MH Magazine Pro', 'mh-magazine-lite'); ?>
