@@ -69,7 +69,7 @@ Overview: http://demo.mh-themes.com/magazine/credits/
 
 == Changelog ==
 
-= v2.9.0 08-03-2021 =
+= v2.9.0 09-03-2021 =
 * Tweak: Optimized JavaScript usage for latest WordPress jQuery migrate changes
 * Minor improvements and fixes
 * Updated translation files
