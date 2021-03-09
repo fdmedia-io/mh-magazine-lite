@@ -11,7 +11,8 @@ $mh_magazine_lite_options = get_option('mh_magazine_lite_options');
 function mh_magazine_lite_official_theme() {
 	$active_theme = wp_get_theme();
 	$active_theme_author = $active_theme['Author'];
-	if ($active_theme_author === '<a href="https://mhthemes.com/">MH Themes</a>') {
+
+    if ( strpos( $active_theme_author, 'mhthemes.com' ) !== false ) {
 		$official_theme = true;
 	} else {
 		$official_theme = false;
