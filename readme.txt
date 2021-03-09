@@ -63,7 +63,7 @@ Source: https://code.google.com/p/css3-mediaqueries-js/
 License: http://opensource.org/licenses/mit-license.php
 
 7.) Images from Theme Screenshot
-Source: http://pixabay.com/
+Source: https://pinterest.com/
 License: Free Public Domain (GPL Compatible)
 Overview: http://demo.mh-themes.com/magazine/credits/
 

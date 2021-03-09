@@ -14,11 +14,11 @@ add_action('widgets_init', 'mh_magazine_lite_register_widgets');
 
 /***** Include Widgets *****/
 
-require_once('widgets/mh-custom-posts.php');
-require_once('widgets/mh-slider.php');
-require_once('widgets/mh-tabbed.php');
-require_once('widgets/mh-posts-large.php');
-require_once('widgets/mh-posts-focus.php');
-require_once('widgets/mh-posts-stacked.php');
+require_once get_template_directory() . '/includes/widgets/mh-custom-posts.php';
+require_once get_template_directory() . '/includes/widgets/mh-slider.php';
+require_once get_template_directory() . '/includes/widgets/mh-tabbed.php';
+require_once get_template_directory() . '/includes/widgets/mh-posts-large.php';
+require_once get_template_directory() . '/includes/widgets/mh-posts-focus.php';
+require_once get_template_directory() . '/includes/widgets/mh-posts-stacked.php';
 
 ?>

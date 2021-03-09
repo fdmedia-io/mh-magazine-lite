@@ -10,6 +10,7 @@
 <?php wp_head(); ?>
 </head>
 <body id="mh-mobile" <?php body_class(); ?> itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<?php wp_body_open(); ?>
 <?php mh_before_header();
 get_template_part('content', 'header');
 mh_after_header(); ?>
