@@ -281,7 +281,7 @@ a .pagelink { color: #000; background: #f5f5f5; }
 .mh-footer a, .mh-footer a:hover { color: #f7f7f7; }
 .mh-copyright-wrap { padding: 10px 25px; border-top: 3px solid #999; background: #2a2a2a; }
 .mh-copyright { font-size: 12px; font-size: 0.75rem; color: #999; }
-.mh-copyright a { color: #999; }
+.mh-copyright a, .mh-copyright a:hover { color: #fff; }
 
 /***** Images / Video *****/
 
