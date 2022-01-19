@@ -4,8 +4,8 @@ Contributors: mhthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, footer-widgets, translation-ready, rtl-language-support, blog, entertainment, news
 
 Requires at least: 4.6.0
-Tested up to: 5.7.1
-Stable tag: 2.9.1
+Tested up to: 5.8.3
+Stable tag: 2.9.2
 License: GPL v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,10 @@ License: Free Public Domain (GPL Compatible)
 Overview: http://demo.mh-themes.com/magazine/credits/
 
 == Changelog ==
+
+= v2.9.2 19-01-2022 =
+* Minor improvements for footer copyright url
+* WordPress v5.8.3 compatibility
 
 = v2.9.1 26-03-2021 =
 * Fix: Flex Control navigation buttons vanished
