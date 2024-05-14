@@ -128,7 +128,7 @@ select { max-width: 100%; }
 .mh-main-nav ul ul li { width: 100%; min-width: 16em; }
 .mh-main-nav ul ul ul { left: 100%; top: 0; }
 .mh-main-nav .menu > .current-menu-item { background: #e64946; }
-.mh-navigation .menu-item-has-children > a:after { font-family: 'FontAwesome'; font-weight: 400; line-height: 1; content: '\f107'; margin-left: 5px; }
+.mh-navigation .menu-item-has-children > a:after { font-family: 'FontAwesome'; font-weight: 600; line-height: 1; content: '\f107'; margin-left: 5px; }
 .mh-navigation .sub-menu .menu-item-has-children > a:after { content: '\f105'; margin-left: 10px; }
 .mh-navigation img { vertical-align: inherit; }
 
@@ -274,7 +274,7 @@ a .pagelink { color: #000; background: #f5f5f5; }
 .mh-post-nav-next { float: right; text-align: right; }
 .mh-post-nav-prev img { float: left; margin-right: 15px; }
 .mh-post-nav-next img { float: right; margin-left: 15px; }
-.mh-post-nav-prev span:before, .mh-post-nav-next span:after { font-family: 'FontAwesome'; font-weight: 400; }
+.mh-post-nav-prev span:before, .mh-post-nav-next span:after { font-family: 'FontAwesome'; font-weight: 600; }
 .mh-post-nav-prev span:before { content: '\f100'; margin-right: 5px; }
 .mh-post-nav-next span:after { content: '\f101'; margin-left: 5px; }
 
@@ -339,7 +339,7 @@ th { font-weight: 600; }
 .mh-comment-meta, .mh-comment-meta a { color: #2a2a2a; }
 .mh-comment-meta-author { font-size: 16px; font-size: 1rem; font-weight: 700; }
 .mh-comment-meta-author .fn { margin-right: 5px; }
-.bypostauthor .mh-comment-meta-author:after { font-family: 'FontAwesome'; font-weight: 400; color: #e64946; content: '\f006'; }
+.bypostauthor .mh-comment-meta-author:after { font-family: 'FontAwesome'; font-weight: 600; color: #e64946; content: '\f006'; }
 .mh-comment-meta-date { font-size: 10px; font-size: 0.625rem; text-transform: uppercase; }
 .mh-comment-meta-links { font-weight: 700; line-height: 1; text-transform: uppercase; margin-bottom: 25px; }
 .mh-comment-meta-links .comment-edit-link { margin-right: 15px; }
@@ -355,7 +355,7 @@ th { font-weight: 600; }
 
 #respond .comment-reply-title { font-size: 24px; font-size: 1.5rem; line-height: 1; margin-bottom: 20px; margin-bottom: 1.25rem; }
 #respond #cancel-comment-reply-link { font-size: 12px; font-size: 0.75rem; margin-left: 10px; }
-#respond #cancel-comment-reply-link:before { font-family: 'FontAwesome'; font-weight: 400; color: #e64946; content: '\f05e'; margin-right: 5px; }
+#respond #cancel-comment-reply-link:before { font-family: 'FontAwesome'; font-weight: 600; color: #e64946; content: '\f05e'; margin-right: 5px; }
 #commentform p { margin-bottom: 10px; }
 #commentform .form-submit { margin: 25px 0; }
 .required { color: #e64946; }
