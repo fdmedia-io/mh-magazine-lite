@@ -420,4 +420,14 @@ function mh_magazine_lite_media_queries() {
 }
 add_action('wp_head', 'mh_magazine_lite_media_queries');
 
+
+/***** Add Year Shortcode *****/
+
+if (!function_exists('mh_magazine_year')) {
+	function mh_magazine_year(){
+		return date("Y");
+	}
+}
+add_shortcode('year', 'mh_magazine_year');
+
 ?>

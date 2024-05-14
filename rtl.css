@@ -26,7 +26,7 @@ dd { margin-right: 20px; margin-left: 0; }
 .slicknav_nav ul { padding: 20px 15px 0 0; }
 .slicknav_nav ul ul { padding: 0 15px 0 0; }
 .slicknav_nav .slicknav_txtnode { margin-right: 15px; margin-left: 0; }
-.flex-viewport { direction: ltr; }
+.flex-viewport { direction: rtl; }
 .mh-meta span { margin-left: 10px; margin-right: 0; }
 .mh-meta .fa { margin-left: 5px; margin-right: 0; }
 .entry-tags li { float: right; margin: 0 0 6px 6px; margin: 0 0 0.375rem 0.375rem; }

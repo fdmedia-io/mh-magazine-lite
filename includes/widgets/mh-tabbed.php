@@ -21,13 +21,13 @@ class mh_magazine_lite_tabbed extends WP_Widget {
 			} ?>
 			<div class="mh-tabbed-widget">
 				<div class="mh-tab-buttons mh-clearfix">
-					<a class="mh-tab-button" href="#tab-<?php echo esc_attr($args['widget_id']); ?>-1">
+					<a class="mh-tab-button" title="Posts" href="#tab-<?php echo esc_attr($args['widget_id']); ?>-1">
 						<span><i class="fa fa-newspaper-o"></i></span>
 					</a>
-					<a class="mh-tab-button" href="#tab-<?php echo esc_attr($args['widget_id']); ?>-2">
+					<a class="mh-tab-button" title="Tags" href="#tab-<?php echo esc_attr($args['widget_id']); ?>-2">
 						<span><i class="fa fa-tags"></i></span>
 					</a>
-					<a class="mh-tab-button" href="#tab-<?php echo esc_attr($args['widget_id']); ?>-3">
+					<a class="mh-tab-button" title="Comments" href="#tab-<?php echo esc_attr($args['widget_id']); ?>-3">
 						<span><i class="fa fa-comments-o"></i></span>
 					</a>
 				</div>
@@ -37,7 +37,7 @@ class mh_magazine_lite_tabbed extends WP_Widget {
 						echo '<ul class="mh-tab-content-posts">' . "\n";
 							while ($latest_posts->have_posts()) : $latest_posts->the_post(); ?>
 								<li class="post-<?php the_ID(); ?> mh-tab-post-item">
-									<a href="<?php the_permalink(); ?>">
+									<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( the_title('', '', false ) ); ?>">
 										<?php the_title(); ?>
 									</a>
 								</li><?php
