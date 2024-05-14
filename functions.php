@@ -102,7 +102,8 @@ if (!function_exists('mh_magazine_lite_scripts')) {
 		global $mh_magazine_lite_version;
 		wp_enqueue_style('mh-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600', array(), null);
 		wp_enqueue_style('mh-magazine-lite', get_stylesheet_uri(), false, $mh_magazine_lite_version);
-		wp_enqueue_style('mh-font-awesome', get_template_directory_uri() . '/includes/font-awesome.min.css', array(), null);
+		$minified = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+		wp_enqueue_style('mh-font-awesome', get_template_directory_uri() . '/includes/font-awesome' . $minified . '.css', array(), null);
 		wp_localize_script( 'mh-scripts', 'mh_magazine', [
 			'text' => [
 				'toggle_menu' => __( 'Toggle Menu', 'mh-magazine' )

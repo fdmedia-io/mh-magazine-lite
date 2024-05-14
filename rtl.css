@@ -28,11 +28,11 @@ dd { margin-right: 20px; margin-left: 0; }
 .slicknav_nav .slicknav_txtnode { margin-right: 15px; margin-left: 0; }
 .flex-viewport { direction: rtl; }
 .mh-meta span { margin-left: 10px; margin-right: 0; }
-.mh-meta .fa { margin-left: 5px; margin-right: 0; }
+.mh-meta .fa, .mh-meta .far, .mh-meta .fas { margin-left: 5px; margin-right: 0; }
 .entry-tags li { float: right; margin: 0 0 6px 6px; margin: 0 0 0.375rem 0.375rem; }
-.entry-tags .fa { float: right; margin-left: 6px; margin-right: 0; }
+.entry-tags .fa, .entry-tags .far { float: right; margin-left: 6px; margin-right: 0; }
 .mh-author-box-avatar { float: right; margin-left: 25px; margin-right: 0; }
-.mh-author-box-postcount::before { content: "\f104"; }
+.mh-author-box-postcount::before { content: "\f053"; }
 .mh-loop-thumb { float: right; margin-left: 20px; margin-right: 0; }
 .mh-post-nav-next { float: left; text-align: left; }
 .mh-post-nav-prev img { float: right; margin-left: 15px; margin-right: 0; }
@@ -52,7 +52,7 @@ dd { margin-right: 20px; margin-left: 0; }
 .mh-comment-meta-author .fn { margin-left: 5px; margin-right: 0; }
 .mh-comment-meta-links .comment-edit-link { margin-left: 15px; margin-right: 0; }
 .mh-comment-meta-links .comment-reply-link:before { content: '\f064'; margin-left: 5px; margin-right: 0; }
-.mh-ping-list .mh-ping-item .fa { margin-left: 15px; margin-right: 0; }
+.mh-ping-list .mh-ping-item .fa, .mh-ping-list .mh-ping-item .far { margin-left: 15px; margin-right: 0; }
 #respond #cancel-comment-reply-link { margin-right: 10px; margin-left: 0; }
 #respond #cancel-comment-reply-link:before { margin-left: 5px; margin-right: 0; }
 .mh-slider-widget .flex-control-nav li { margin: 0 0 0 10px; }
