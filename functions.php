@@ -107,7 +107,7 @@ if (!function_exists('mh_magazine_lite_scripts')) {
 		wp_enqueue_script('mh-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), $mh_magazine_lite_version);
 		wp_localize_script( 'mh-scripts', 'mh_magazine', [
 			'text' => [
-				'toggle_menu' => __( 'Toggle Menu', 'mh-magazine' )
+				'toggle_menu' => __( 'Toggle Menu', 'mh-magazine-lite' )
 			]
 		]);
 		wp_enqueue_script('mh-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), $mh_magazine_lite_version);
