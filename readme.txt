@@ -69,7 +69,7 @@ Overview: http://demo.mh-themes.com/magazine/credits/
 
 == Changelog ==
 
-= v2.10.0 20-08-2024 =
+= v2.10.0 15-08-2024 =
 * New: Added year shortcode "[year]"
 * Fix: Updated FlexSlider to 2.7.2 to fix "href" warnings
 * Fix: Added title tags for icons in MH Tabbed widget
