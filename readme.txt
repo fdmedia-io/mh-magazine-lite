@@ -4,8 +4,8 @@ Contributors: mhthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, footer-widgets, translation-ready, rtl-language-support, blog, entertainment, news
 
 Requires at least: 4.6.0
-Tested up to: 5.8.3
-Stable tag: 2.9.2
+Tested up to: 6.5.2
+Stable tag: 2.10.0
 License: GPL v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,12 +39,12 @@ Bundled Resources:
 Source: http://modernizr.com/
 License: http://modernizr.com/license/
 
-2.) jQuery FlexSlider v2.1 | GPLv2 license | Copyright 2012 WooThemes
+2.) jQuery FlexSlider v2.7.2 | GPLv2 license | Copyright 2012 WooThemes
 Contributing Author: Tyler Smith
 Source: https://github.com/woothemes/FlexSlider
 License: http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
-3.) SlickNav Responsive Mobile Menu v1.0.0 | MIT license
+3.) SlickNav Responsive Mobile Menu v1.0.7 | MIT license
 Source: http://slicknav.com/
 License: http://opensource.org/licenses/mit-license.php
 
@@ -68,6 +68,15 @@ License: Free Public Domain (GPL Compatible)
 Overview: http://demo.mh-themes.com/magazine/credits/
 
 == Changelog ==
+
+= v2.10.0 14-05-2024 =
+* New: Added year shortcode "[year]"
+* Fix: Updated FlexSlider to 2.7.2 to fix "href" warnings
+* Fix: Added title tags for icons in MH Tabbed widget
+* Fix: WooCommerce product images did not appear in RTL languages
+* Tweak: Accessibility improvements for mobile navigation
+* Info: Updated FontAwesome icon library (v6.5.1)
+* WordPress v6.5.2 compatibility
 
 = v2.9.2 19-01-2022 =
 * Minor improvements for footer copyright url

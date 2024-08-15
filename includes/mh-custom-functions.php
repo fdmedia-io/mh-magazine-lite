@@ -110,10 +110,10 @@ if (!function_exists('mh_magazine_lite_loop_layout')) {
 if (!function_exists('mh_magazine_lite_post_meta')) {
 	function mh_magazine_lite_post_meta() {
 		echo '<p class="mh-meta entry-meta">' . "\n";
-			echo '<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="' . esc_url(get_month_link(get_the_time('Y'), get_the_time('m'))) . '">' . get_the_date() . '</a></span>' . "\n";
+			echo '<span class="entry-meta-date updated"><i class="far fa-clock"></i><a href="' . esc_url(get_month_link(get_the_time('Y'), get_the_time('m'))) . '">' . get_the_date() . '</a></span>' . "\n";
 			echo '<span class="entry-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '">' . esc_html(get_the_author()) . '</a></span>' . "\n";
-			echo '<span class="entry-meta-categories"><i class="fa fa-folder-open-o"></i>' . get_the_category_list(', ', '') . '</span>' . "\n";
-			echo '<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-scroll" href="' . esc_url(get_permalink() . '#mh-comments') . '">' . absint(get_comments_number()) . '</a></span>' . "\n";
+			echo '<span class="entry-meta-categories"><i class="far fa-folder-open"></i>' . get_the_category_list(', ', '') . '</span>' . "\n";
+			echo '<span class="entry-meta-comments"><i class="far fa-comment"></i><a class="mh-comment-scroll" href="' . esc_url(get_permalink() . '#mh-comments') . '">' . absint(get_comments_number()) . '</a></span>' . "\n";
 		echo '</p>' . "\n";
 	}
 }
@@ -123,11 +123,11 @@ add_action('mh_post_header', 'mh_magazine_lite_post_meta');
 
 if (!function_exists('mh_magazine_lite_loop_meta')) {
 	function mh_magazine_lite_loop_meta() {
-		echo '<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>' . get_the_date() . '</span>' . "\n";
+		echo '<span class="mh-meta-date updated"><i class="far fa-clock"></i>' . get_the_date() . '</span>' . "\n";
 		if (in_the_loop()) {
 			echo '<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '">' . esc_html(get_the_author()) . '</a></span>' . "\n";
 		}
-		echo '<span class="mh-meta-comments"><i class="fa fa-comment-o"></i>';
+		echo '<span class="mh-meta-comments"><i class="far fa-comment"></i>';
 			mh_magazine_lite_comment_count();
 		echo '</span>' . "\n";
 	}
@@ -419,5 +419,15 @@ function mh_magazine_lite_media_queries() {
 	echo '<![endif]-->' . "\n";
 }
 add_action('wp_head', 'mh_magazine_lite_media_queries');
+
+
+/***** Add Year Shortcode *****/
+
+if (!function_exists('mh_magazine_year')) {
+	function mh_magazine_year(){
+		return date("Y");
+	}
+}
+add_shortcode('year', 'mh_magazine_year');
 
 ?>
